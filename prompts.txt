@@ -1,0 +1,11 @@
+ONE-TIME PRACTICE PROMPT
+
+Replace [WORKBOOK LINK] with a link to your own OneDrive for Business or SharePoint copy of weekly-sales.xlsx. You can also select that cloud file in Copilot. Keep the workbook private; you do not need to create an anyone link.
+
+Use only the Excel workbook at [WORKBOOK LINK]. Read the WeeklySales table on the Weekly sales sheet. This is fictional practice data. Compare the completed weeks ending November 8, 2026 and November 1, 2026. Show sales totals and row counts for both weeks, the dollar and percentage change, and a region-by-region comparison. Use the Notes column to identify follow-up questions; do not invent causes. Cite the workbook. If you cannot read its cells, say so and stop. Do not modify the workbook or send messages.
+
+RECURRING PROMPT
+
+Use only the current workbook at [WORKBOOK LINK], the WeeklySales table on the Weekly sales sheet. Prepare a weekly sales briefing for my review. Use America/New_York to interpret dates. Find the most recent Sunday before today's date and compare that WeekEnding with the Sunday seven days earlier. Require exactly one Complete row for each of North, South, East and West in both weeks. If a week or region is missing, duplicated, incomplete, or unreadable, explain the problem and stop; do not substitute an older week. Report the two week-ending dates, each week's row count and sales total, the dollar and percentage change, and the regional changes. Use only the Notes column for explanations and distinguish notes from hypotheses. End with two follow-up questions. Cite the source workbook. Do not edit files or send messages.
+
+The recurring prompt requires current data. The original practice file contains only November 1 and November 8, 2026. After November 15, it should report missing data until you append the appropriate complete weekly rows. Schedule timing is set in the schedule dialog; it is separate from the reporting dates in the prompt.
